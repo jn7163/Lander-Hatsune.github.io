@@ -1,1 +1,1 @@
-# see [Lander-Hatsune.github.io]:"LxH's Blog here"
+see [Lander-Hatsune.github.io]: "LxH's Blog here"
