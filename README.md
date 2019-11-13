@@ -1,1 +1,1 @@
-# see !(Lander-Hatsune.github.io)
+# see []:Lander-Hatsune.github.io
