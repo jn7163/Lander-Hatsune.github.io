@@ -1,1 +1,1 @@
-[portal]:("lander-hatsune.github.io")
+[portal](lander-hatsune.github.io)
