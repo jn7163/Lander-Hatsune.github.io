@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../css/splendor.css">
 # Manjaro 安装
-<2020-7-7> _LanderX_
+<2020-7-7> _LanderX_ [返回首页](https://lander-hatsune.github.io/)
 
 ### 选择Manjaro
 去年高中毕业时曾使用过Ubuntu，憾由于学习能力不佳，未能灵活使用，开学后再未启动过。但私以为自己具备了一定的Linux基础，再次尝试Linux，希望选择一个更customizable的、有一定挑战性的发行版。

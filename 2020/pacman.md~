@@ -1,0 +1,41 @@
+# Pacman
+
+> Package manager utility
+
+##### manual #####
+
+``` shell
+man pacman
+```
+
+##### 安装 #####
+
+- 安装或更新单个/数个软件包/软件包组（包含依赖）
+    ``` shell
+    pacman -S package_name1 package_name2 ...
+    ```
+
+- 查看哪些包属于某包组（如gnome）
+    ``` shell
+    pacman -Sg gnome
+    ```
+
+##### 删除 #####
+- 删除单个软件包，保留其所有已安装的依赖
+    ``` shell
+    pacman -R package_name
+    ```
+
+- 删除单个软件包，及其未被其他软件使用的依赖
+    ``` shell
+    pacman -Rs package_name
+    ```
+
+##### 升级 #####
+- 升级软件包列表（**注意常滚系统**）
+    ``` shell
+    pacman -Syu
+    ```
+
+##### 查询 #####
+
