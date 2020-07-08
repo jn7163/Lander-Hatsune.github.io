@@ -16,7 +16,7 @@ _[@LanderX](https://github.com/Lander-Hatsune)_
   _([2020](http://lander-hatsune.github.io/2020/2020index.html))_
   4. [Manjaro美化](http://lander-hatsune.github.io/2020/manjaro-beautify.html)
   _([2020](http://lander-hatsune.github.io/2020/2020index.html))_
-  5. [Emacs配置](http://lander-hatsune.github.io/2020/emacs-config.html)
+  5. [Emacs配置](http://lander-hatsune.github.io/2020/emacs.html)
   _([2020](http://lander-hatsune.github.io/2020/2020index.html))_
   6. [pacman基本操作](http://lander-hatsune.github.io/2020/pacman.html)
   _([2020](http://lander-hatsune.github.io/2020/2020index.html))_
