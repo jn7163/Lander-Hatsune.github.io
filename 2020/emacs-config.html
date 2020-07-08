@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>emacs-config.html</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+
+</head>
+
+<body>
+
+<link rel="stylesheet" href="../css/splendor.css">
+
+<h1 id="emacs配置">Emacs 配置</h1>
+
+<p>&lt;2020&#8211;7&#8211;9&gt; <em>LanderX</em> <a href="https://lander-hatsune.github.io/">返回首页</a></p>
+
+<blockquote>
+<p> GNU Emacs: An extensible, customizable, free/libre text editor — and more.</p>
+</blockquote>
+
+<h3 id="当前配置文件（2020年7月9日）">当前配置文件（2020年7月9日）</h3>
+
+<h4 id=".emacs"><code>~/.emacs</code></h4>
+
+<pre><code class="emacs-lisp">;; packages (melpa stable)
+(require 'package)
+(add-to-list 'package-archives
+             '(&quot;melpa-stable&quot; . &quot;https://stable.melpa.org/packages/&quot;) t)
+(package-initialize)
+
+
+;; basic face
+(tool-bar-mode 0)
+(menu-bar-mode 0)
+(scroll-bar-mode 0)
+(global-linum-mode 1)
+
+;;; English Font
+(set-face-attribute
+'default nil :font &quot;Ubuntu Mono 15&quot;)
+
+;;; Chinese Font
+(dolist (charset '(kana han symbol cjk-misc bopomofo))
+(set-fontset-font (frame-parameter nil 'font)
+charset
+(font-spec :family &quot;SimSun&quot; :size 22)))
+
+;;; zenburn theme
+(load-theme 'zenburn t)
+
+;; sanitic-tomorrow theme
+;;(require 'color-theme-sanityinc-tomorrow)
+
+;; space indent
+(setq default-tab-width 4)
+(setq-default indent-tabs-mode nil)
+(setq c-default-style &quot;Linux&quot;)
+(setq c-basic-offset 4)
+
+;; shut welcome face
+(setq inhibit-splash-screen 1)
+
+
+;; flycheck
+(use-package flycheck
+  :ensure t
+  :init (global-flycheck-mode))
+
+
+;; orgmode
+(require 'org)
+(add-to-list 'auto-mode-alist '(&quot;\\.org$&quot; . org-mode))
+(global-set-key &quot;\C-cl&quot; 'org-store-link)
+(global-set-key &quot;\C-ca&quot; 'org-agenda)
+(global-font-lock-mode 1)
+(require 'org-tempo)
+(setq org-log-done t)
+(setq org-src-fontify-natively t)
+
+;;; htmlize
+;;; use minted to highlight code in latex
+(require 'ox-latex)
+(add-to-list 'org-latex-packages-alist '(&quot;&quot; &quot;minted&quot;))
+(setq org-latex-listings 'minted)
+
+
+;; markdown mode
+(use-package markdown-mode
+  :ensure t
+  :commands (markdown-mode gfm-mode)
+  :mode ((&quot;README\\.md\\'&quot; . gfm-mode)
+         (&quot;\\.md\\'&quot; . markdown-mode)
+         (&quot;\\.markdown\\'&quot; . markdown-mode))
+  :init (setq markdown-command &quot;multimarkdown&quot;))
+
+
+(provide '.emacs)
+;;; .emacs ends here
+</code></pre>
+
+<h4 id=".emacs.dinit.el"><code>~/.emacs.d/init.el</code></h4>
+
+<pre><code class="emacs-lisp">;;; package --- summary:
+;;; code:
+;;; commentary:
+;; above for flycheck
+(load &quot;~/.emacs&quot;)
+
+(provide '.emacs)
+;;; init.el ends here
+</code></pre>
+
+<h3 id="其他参考资源">其他 &amp; 参考资源</h3>
+
+<ul>
+<li><a href="https://github.com/auto-complete/auto-complete">auto-complete</a></li>
+<li><a href="https://orgmode.org/">org-mode</a></li>
+<li><a href="https://jblevins.org/projects/markdown-mode/">markdown-mode</a></li>
+</ul>
+
+</body>
+</html>

@@ -1,8 +1,7 @@
 <link rel="stylesheet" href="../css/splendor.css">
 
-<2020-7-7> _LanderX_ [返回首页](https://lander-hatsune.github.io/)
 # Manjaro 配置 #
-
+<2020-7-7> _LanderX_ [返回首页](https://lander-hatsune.github.io/)
 
 ### 软件源 ###
 列出镜像源排名：
@@ -94,7 +93,18 @@ sudo pacman -Sy archlinuxcn-keyring
     - jupyter
     - pulseaudio (GUI audio settings)
     - python & python libs
+    
+### 键位调整 ###
+
+在`Manjaro-优化`中进行
+
+- Left Windows -> Super
+- Left Control -> Hyper
+- Caps Lock -> Left Control
 
 ### 参考 ###
 - [manjaro双系统安装（折腾）教程](https://www.cnblogs.com/HGNET/p/12712977.html)
 - [Oh My Zsh](https://ohmyz.sh/)
+
+    > <2020-7-9> 更新 键位调整
+    
