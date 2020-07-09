@@ -1,6 +1,11 @@
-# Manjaro 配置 #
-<2020-7-7> _LanderX_ [返回首页](https://lander-hatsune.github.io/)
-
+---
+title: Manjaro 配置
+layout: post
+categories: Assistant-skills
+tags: 
+  - Manjaro
+  - Assistant skill
+---
 ### 软件源 ###
 列出镜像源排名：
 
