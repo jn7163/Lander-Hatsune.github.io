@@ -1,3 +1,1 @@
-plugins: [jekyll-paginate]
 theme: jekyll-theme-cayman
-paginate: 10
