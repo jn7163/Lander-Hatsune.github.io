@@ -1,0 +1,5 @@
+source: ./
+destination: ./_site
+plugins: [jekyll-paginate]
+theme: minimalist
+paginate: 10

@@ -1,4 +1,6 @@
-<link rel="stylesheet" href="./css/splendor.css">
+---
+permalink: https://lander-hatsune.github.io/index
+---
 
 # Pieces of Music
 _[@LanderX](https://github.com/Lander-Hatsune)_
