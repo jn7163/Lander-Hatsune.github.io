@@ -1,3 +1,7 @@
+---
+title: Pieces of Music
+---
+
 # Pieces of Music
 _[@LanderX](https://github.com/Lander-Hatsune)_
 
