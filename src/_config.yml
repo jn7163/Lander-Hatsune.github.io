@@ -1,0 +1,4 @@
+source: ./
+destination: ../_site/
+plugin: [jekyll-paginate]
+paginate: 10
