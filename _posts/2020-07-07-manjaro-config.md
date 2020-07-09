@@ -6,6 +6,8 @@ tags:
   - Manjaro
   - Assistant skill
 ---
+
+
 ### 软件源 ###
 列出镜像源排名：
 
@@ -108,6 +110,4 @@ sudo pacman -Sy archlinuxcn-keyring
 ### 参考 ###
 - [manjaro双系统安装（折腾）教程](https://www.cnblogs.com/HGNET/p/12712977.html)
 - [Oh My Zsh](https://ohmyz.sh/)
-
-    > <2020-7-9> 更新 键位调整
     
