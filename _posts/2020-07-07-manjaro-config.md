@@ -5,8 +5,9 @@ categories: Assistant-skills
 tags: 
   - Manjaro
   - Assistant skill
+permalink: https://lander-hatsune.github.io/manjaro-config
 ---
-
+<!-- more -->
 
 ### 软件源 ###
 列出镜像源排名：
@@ -39,7 +40,7 @@ sudo pacman -Sy archlinuxcn-keyring
 #### Manjaro - 添加/删除软件（GUI前端） ####
 在首选项中修改软件源、添加AUR（Arch User Repository）支持。
 
-#### [Pacman-(Package manager utility)包管理器](https://lander-hatsune.github.io/2020/pacman.html)####
+#### [Pacman-(Package manager utility)包管理器](https://lander-hatsune.github.io/pacman)####
 
 #### 常用软件 ####
 1. 输入法
@@ -64,7 +65,7 @@ sudo pacman -Sy archlinuxcn-keyring
     
     [之前盲目找到的一系列解决方案](https://askubuntu.com/questions/57810/how-to-fix-no-soundcards-found)
     
-3. [**Emacs**](https://lander-hatsune.github.io/2020/emacs-config.html)
+3. [**Emacs**](https://lander-hatsune.github.io/emacs-config)
 
 4. zsh & Oh My Zsh
     当前安装的shells：

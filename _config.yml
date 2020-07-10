@@ -315,7 +315,7 @@ auto_excerpt:
 post_meta:
   item_text: true
   created_at: true
-  updated_at: false
+  updated_at: true
   categories: true
 
 # Post wordcount display settings
@@ -333,7 +333,7 @@ post_wordcount:
 
 # Declare license on posts
 post_copyright:
-  enable: false
+  enable: true
   license: CC BY-NC-SA 3.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
 
@@ -363,6 +363,9 @@ highlight_theme: normal
 # ---------------------------------------------------------------
 # Third Party Services Settings
 # ---------------------------------------------------------------
+
+reward_comment: Feel free to spare me a cup of coffee~
+alipay: /assets/images/alipay.jpg
 
 # MathJax Support
 mathjax:
@@ -740,3 +743,4 @@ images: assets/images
 
 # Theme version
 version: 5.1.1
+

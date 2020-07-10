@@ -5,7 +5,9 @@ categories: Assistant-skills
 tags:
   - Manjaro
   - Assistant skill
+permalink: https://lander-hatsune.github.io/manjaro-install
 ---
+<!-- more -->
 
 ### 选择Manjaro
 去年高中毕业时曾使用过Ubuntu，憾由于学习能力不佳，未能灵活使用，开学后再未启动过。但私以为自己具备了一定的Linux基础，再次尝试Linux，希望选择一个更customizable的、有一定挑战性的发行版。
