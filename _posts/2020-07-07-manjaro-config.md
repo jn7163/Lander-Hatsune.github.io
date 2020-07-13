@@ -40,7 +40,7 @@ sudo pacman -Sy archlinuxcn-keyring
 #### Manjaro - 添加/删除软件（GUI前端） ####
 在首选项中修改软件源、添加AUR（Arch User Repository）支持。
 
-#### [Pacman-(Package manager utility)包管理器](https://lander-hatsune.github.io/pacman)####
+#### [Pacman-(Package manager utility)包管理器](https://lander-hatsune.github.io/pacman) ####
 
 #### 常用软件 ####
 1. 输入法
