@@ -108,6 +108,25 @@ sudo pacman -Sy archlinuxcn-keyring
 - Left Control -> Hyper
 - Caps Lock -> Left Control
 
+### 外观 ###
+
+在`Manjaro-优化`中进行
+![](/figures/manjaro-config-appearance.png)
+
+### 壁纸 ###
+
+几个好用的网站
+
+[WALLPAPER ABYSS](https://wall.alphacoders.com/)
+[Unsplash](https://unsplash.com/)
+
+当前壁纸
+
+![](/figures/manjaro-config-wallpaper.png)
+
+（我知道我知道Manjaro is not Arch.这不碍着壁纸好看啊)
+
+
 ### 参考 ###
 - [manjaro双系统安装（折腾）教程](https://www.cnblogs.com/HGNET/p/12712977.html)
 - [Oh My Zsh](https://ohmyz.sh/)
