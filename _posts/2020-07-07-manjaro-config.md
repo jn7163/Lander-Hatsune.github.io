@@ -5,7 +5,7 @@ categories: Assistant-skills
 tags: 
   - Manjaro
   - Configuration
-permalink: https://lander-hatsune.github.io/manjaro-config
+permalink: /manjaro-config
 ---
 <!-- more -->
 
