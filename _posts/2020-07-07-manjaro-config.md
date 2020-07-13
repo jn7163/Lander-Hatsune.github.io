@@ -4,7 +4,7 @@ layout: post
 categories: Assistant-skills
 tags: 
   - Manjaro
-  - Assistant skill
+  - Configuration
 permalink: https://lander-hatsune.github.io/manjaro-config
 ---
 <!-- more -->
